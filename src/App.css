@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Jura", serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+*  ::selection{
+  background-color:rgb(132, 86, 33);
+  color: white;
+}
+
+.project {
+  background-color: #1b1f8d;
+  color: #fff;
+  border-color: black;
+}
+
+
+
+.MainColor{
+  background-image: linear-gradient(to right, #000000, #110930);
+}
+
+.AboutColor{
+  
+  /* background: linear-gradient(120deg, rgba(23,21,23,1) 66%, rgb(91, 25, 97) 100%, rgba(42,58,61,1) 100%); */
+  background-image: linear-gradient(to right, #000000, #110930);
+
+  /* background: linear-gradient(48deg, rgba(23,21,23,1) 66%, rgb(8, 7, 8) 100%, rgb(207, 64, 185) 100%); */
+}
+
+.SkillColor{
+  background: linear-gradient(270deg, rgb(33, 18, 33) 100%, rgb(10, 2, 10) 100%, rgb(11, 15, 15) 100%);
+  
+   /* background: linear-gradient(to right, #381939, #000); */
+
+}
+
+.followme{
+  background-image: linear-gradient(to right, #000000, #110930);
+
+}
+.footer{
+  background-image: linear-gradient(to right, #000000, #110930);
+
+}
+
+
+/* budget section  */
+
+
+/* ****************************
+Error page 
+**************************** */
+@keyframes bounce-slow {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-25px);
+  }
+}
