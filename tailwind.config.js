@@ -11,8 +11,16 @@ export default {
       },
     
       animation: {
-        "bounce-slow": "bounce-slow 3s infinite",
+        scroll: "scroll 20s linear infinite",
       },
+      keyframes: {
+        scroll: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
+
+
+
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
       },
@@ -57,7 +65,8 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
     },
-  },
+      }
+    },
   plugins: [],
 
 }

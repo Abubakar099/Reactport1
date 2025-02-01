@@ -82,18 +82,18 @@ export function Contact() {
   }
 
   return (
-    <div className="min-h-screen bg-black px-4  sm:px-6 lg:px-8 relative">
+    <div className="min-h-screen pt-14 bg-black px-4  sm:px-6 lg:px-8 relative">
 
 
 {/* Services  section   */}
 
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-3xl mx-auto ">
         <form onSubmit={handleSubmit} className="space-y-8">
-          
           {/* Title */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl text-white font-extralight tracking-wide mb-12 transition-all duration-300 hover:tracking-wider">
             Contact Me
           </h1>
+          
 
           {/* Input Fields Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

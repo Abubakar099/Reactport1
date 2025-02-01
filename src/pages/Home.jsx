@@ -5,10 +5,12 @@ import { BlogInterface } from '../UI/Blog';
 import { Hireme } from '../UI/HIreme';
 import { Contact } from '../UI/Contact';
 import { Followme } from '../UI/Followme';
+import { Hero } from '../UI/Hero';
 
 export const Home = () => {
   return (
     <>
+    <Hero/>
      <About />
       {/* <Skill /> */}
       <Project/>
