@@ -103,12 +103,12 @@ export function Contact() {
                 type="text"
                 name="firstName"
                 required
-                className="w-full bg-transparent border-b border-gray-700 text-white px-0 py-2 focus:outline-none focus:border-purple-500 transition-all duration-300 placeholder-gray-500"
+                className="w-full bg-transparent border-b border-gray-700 text-white px-0 py-2 focus:outline-none focus:border-blue-500 transition-all duration-300 placeholder-gray-500"
                 placeholder="First Name"
                 onChange={(e) => setFormData({ ...formData, firstName: e.target.value })}
               />
               {errors.firstName && <div className="text-red-500 text-sm">{errors.firstName}</div>}
-              <div className="w-0 group-hover:w-full h-0.5 bg-purple-500 transition-all duration-300" />
+              <div className="w-0 group-hover:w-full h-0.5 bg-blue-500 transition-all duration-300" />
             </div>
 
             {/* Last Name */}
@@ -117,11 +117,11 @@ export function Contact() {
                 type="text"
                 name="lastName"
                 required
-                className="w-full bg-transparent border-b border-gray-700 text-white px-0 py-2 focus:outline-none focus:border-purple-500 transition-all duration-300 placeholder-gray-500"
+                className="w-full bg-transparent border-b border-gray-700 text-white px-0 py-2 focus:outline-none focus:border-blue-500 transition-all duration-300 placeholder-gray-500"
                 placeholder="Last Name"
                 onChange={(e) => setFormData({ ...formData, lastName: e.target.value })}
               />
-              <div className="w-0 group-hover:w-full h-0.5 bg-purple-500 transition-all duration-300" />
+              <div className="w-0 group-hover:w-full h-0.5 bg-blue-500 transition-all duration-300" />
             </div>
 
             {/* Email */}
@@ -130,12 +130,12 @@ export function Contact() {
                 type="email"
                 name="email"
                 required
-                className="w-full bg-transparent border-b border-gray-700 text-white px-0 py-2 focus:outline-none focus:border-purple-500 transition-all duration-300 placeholder-gray-500"
+                className="w-full bg-transparent border-b border-gray-700 text-white px-0 py-2 focus:outline-none focus:border-blue-500 transition-all duration-300 placeholder-gray-500"
                 placeholder="Email"
                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
               />
               {errors.email && <div className="text-red-500 text-sm">{errors.email}</div>}
-              <div className="w-0 group-hover:w-full h-0.5 bg-purple-500 transition-all duration-300" />
+              <div className="w-0 group-hover:w-full h-0.5 bg-blue-500 transition-all duration-300" />
             </div>
           </div>
 
@@ -144,12 +144,12 @@ export function Contact() {
             <textarea
               name="projectDetails"
               rows={4}
-              className="w-full bg-transparent border-b border-gray-700 text-white px-0 py-2 focus:outline-none focus:border-purple-500 transition-all duration-300 placeholder-gray-500 resize-none"
+              className="w-full bg-transparent border-b border-gray-700 text-white px-0 py-2 focus:outline-none focus:border-blue-500 transition-all duration-300 placeholder-gray-500 resize-none"
               placeholder="Project Details (Optional)"
               onChange={(e) => setFormData({ ...formData, projectDetails: e.target.value })}
             />
-            <h2 className="absolute right-2 top-2 text-gray-500 w-5 h-5 transition-all duration-300 hover:text-purple-500" />
-            <div className="w-0 group-hover:w-full h-0.5 bg-purple-500 transition-all duration-300" />
+            <h2 className="absolute right-2 top-2 text-gray-500 w-5 h-5 transition-all duration-300 hover:text-blue-500" />
+            <div className="w-0 group-hover:w-full h-0.5 bg-blue-500 transition-all duration-300" />
           </div>
 
           {/* Privacy Policy Checkbox */}

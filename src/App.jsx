@@ -4,7 +4,7 @@ import {Project} from "./UI/Project";
 import { ErrorPage } from "./pages/Error";
 import {Layout} from "./UI/Layout";
 import { BlogInterface } from "./UI/Blog";
-import { Hireme } from "./UI/HIreme";
+import {Hireme} from "./UI/Hireme";
 import { Contact } from "./UI/Contact";
 
 
